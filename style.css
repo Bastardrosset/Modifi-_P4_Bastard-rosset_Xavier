@@ -17,9 +17,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-.navbar-header button .visually-hidden{
-   
-}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -374,6 +371,7 @@ a:hover {
     }
     .navbar-header #nav-toggle{
         opacity: 0!important;
+        display: none;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -663,6 +661,9 @@ a {
     max-width: 1000px;
 }
 
+.container .row .tc-white{
+    color: #FFF!important;
+}
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -682,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -741,7 +742,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .portfolio-thumb {
@@ -785,7 +786,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -829,7 +830,9 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+footer .visually-hidden{
+    opacity: 0!important;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
