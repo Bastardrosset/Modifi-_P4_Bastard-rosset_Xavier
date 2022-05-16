@@ -758,7 +758,10 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
-
+.portfolio-row a img{
+    width: 270px;
+    height: 270px;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -837,6 +840,15 @@ h4 {
 }
 footer .visually-hidden{
     opacity: 0!important;
+}
+
+footer .col-sm-3 .text-center a i{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.619);
+}
+footer .col-sm-3 .text-center a i:hover{
+    font-size: 30px;
+    color: #FFF;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -1041,10 +1053,28 @@ footer .visually-hidden{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .portfolio-row a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .portfolio-row a img{
+        width: 100%;
+        height: auto;
+    }
+    footer .col-sm-3{
+        width: 100%;
+    }
+    footer .col-sm-3 .text-center a i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
