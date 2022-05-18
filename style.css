@@ -838,6 +838,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+/**** FOOTER ****/
 footer .visually-hidden{
     opacity: 0!important;
 }
@@ -849,6 +850,17 @@ footer .col-sm-3 .text-center a i{
 footer .col-sm-3 .text-center a i:hover{
     font-size: 30px;
     color: #FFF;
+}
+/**** FORMULAIRE ****/
+.formulaire{
+    margin: 0!important;
+}
+.formulaire .row{
+    display: flex;
+   flex-direction: column;
+}
+.formulaire .row .col-sm-6 p{
+   margin-top: 20px;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -897,10 +909,6 @@ footer .col-sm-3 .text-center a i:hover{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -909,8 +917,6 @@ footer .col-sm-3 .text-center a i:hover{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
     }
 }
 
