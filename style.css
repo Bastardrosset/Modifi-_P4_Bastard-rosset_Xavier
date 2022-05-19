@@ -920,7 +920,7 @@ footer .col-sm-3 .text-center a i:hover{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1057,9 +1057,6 @@ footer .col-sm-3 .text-center a i:hover{
         width: 180px;
         height: 320px;
     }
-}
-
-@media (max-width: 415px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1083,7 +1080,6 @@ footer .col-sm-3 .text-center a i:hover{
         align-items: center;
     }
 }
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
